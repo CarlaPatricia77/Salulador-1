@@ -1,4 +1,10 @@
 function saludar () {
     return "Hola Ok"
 } 
-export default saludar;
+function saludarNombre (nombre) {
+    return "Hola " + nombre
+} 
+export { 
+    saludar, 
+    saludarNombre
+};
