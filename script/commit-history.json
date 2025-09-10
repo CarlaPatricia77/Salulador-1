@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Carla Copa",
+    "commit": {
+      "date": "2025-09-10T00:34:24.000Z",
+      "message": "Saludaro con hola OK",
+      "url": "https://github.com/CarlaPatricia77/Salulador-1/commit/HEAD"
+    },
+    "stats": {
+      "total": 58,
+      "additions": 21,
+      "deletions": 37,
+      "date": "2025-09-10"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  }
+]

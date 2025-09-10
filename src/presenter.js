@@ -1,15 +1,8 @@
-import sumar from "./sumador";
+import saludar from "./salulador.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+const form = document.querySelector("#saludar-form");
+const saludardiv = document.querySelector("#saludar-div");
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
-
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
-});
+  saludardiv.innerHTML = "<p>" + saludar() + "</p>";
+;
