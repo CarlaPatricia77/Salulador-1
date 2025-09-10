@@ -19,17 +19,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "987bcf4c76fdc2c766ff4936814bb0e849ff9eb8",
     "author": "Carla Copa",
     "commit": {
       "date": "2025-09-10T00:43:15.000Z",
       "message": "Salulador con nombre",
-      "url": "https://github.com/CarlaPatricia77/Salulador-1/commit/HEAD"
+      "url": "https://github.com/CarlaPatricia77/Salulador-1/commit/987bcf4c76fdc2c766ff4936814bb0e849ff9eb8"
     },
     "stats": {
       "total": 50,
       "additions": 38,
       "deletions": 12,
+      "date": "2025-09-10"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Carla Copa",
+    "commit": {
+      "date": "2025-09-10T01:02:36.000Z",
+      "message": "se agrego por gereo y edad y algunas pruebas mas",
+      "url": "https://github.com/CarlaPatricia77/Salulador-1/commit/HEAD"
+    },
+    "stats": {
+      "total": 199,
+      "additions": 167,
+      "deletions": 32,
       "date": "2025-09-10"
     },
     "coverage": 0,

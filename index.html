@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html xml:lang="es">
-  <head>
-    <title>Saludador</title>
-  </head>
-  <body>
-    <h1>Saludador1</h1>
-    <form id="saludador-form">
 
-    </form>
-    <div id="saludar-div"></div> 
-      <label for="inputNombre">Escriba su nombre:</label> 
-    <script type="module" src="./src/presenter.js"></script> 
-  </body>
+<head>
+  <title>Saludador</title>
+</head>
+
+<body>
+  <h1>Saludador</h1>
+  
+  <form id="saludador-form">
+    <label for="nombre-input">Escriba su nombre:</label>
+    <input type="text" id="nombre-input" />
+    
+    <label for="genero-select">Género:</label>
+    <select name="genero" id="genero-select">
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+    </select>
+    
+    <label for="edad-input">Edad:</label>
+    <input type="number" id="edad-input" />
+    
+    <button type="submit">Saludar</button>
+  </form>
+  
+  <div id="saludar-div"></div> 
+  
+  <script type="module" src="./src/presenter.js"></script>
+</body>
+
 </html>
